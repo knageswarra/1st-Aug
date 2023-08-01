@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: stream-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: student
+  
+server:
+  port: 8088
